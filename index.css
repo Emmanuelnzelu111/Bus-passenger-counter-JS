@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+  font-weight: bold;
+  opacity: 1;
+}
+body::after {
+  content: '';
+  background-image: url(images/station.jpg);
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  filter: blur(4px);
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 4.5rem;
+}
+.btn {
+  padding: 12px 0px 12px 0px;
+  width: 16%;
+  border-style: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 0.7rem;
+  margin-bottom: 20px;
+}
+#btn1 {
+  background-color: blueviolet;
+}
+#btn2 {
+  background-color: mediumvioletred;
+}
+#btn3 {
+  background-color: green;
+}
+#btn4 {
+  background-color: rgb(238, 108, 15);
+}
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover {
+  opacity: 0.87;
+  letter-spacing: 0.2px;
+  transition: all ease-out 0.2s;
+}
+h3 {
+  font-size: 3rem;
+}
+#user-info {
+  font-style: italic;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+}
+
+#clock {
+  font-size: 20px;
+  height: auto;
+  width: 230px;
+  background-color: white;
+  border-radius: 0.5rem;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
